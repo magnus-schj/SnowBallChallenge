@@ -41,7 +41,7 @@ a {
 }
 
 .main-head button {
-    background: rgb(82, 142, 165);
+    background: rgb(50, 85, 99);
     margin-top: 20px;
     font-size: 30px;
     border: none;
@@ -53,6 +53,12 @@ a {
 .main-head a button {
     cursor: pointer;
     color: white;
+}
+
+/* ABOUT */
+.about {
+    min-height: 100vh;
+    background: rgb(136, 113, 84);
 }
 
 /* FOOTER */
