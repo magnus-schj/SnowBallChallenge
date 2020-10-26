@@ -1,0 +1,52 @@
+/* GLOBAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* HEADER */
+.main-head {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url("../img/pexels-carl-larson-1123567.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-shadow: 1px 1px black;
+}
+
+.main-head h1 {
+    font-size: 70px;
+    margin-top: 300px;
+    margin-bottom: 30px;
+}
+
+.main-head h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.main-head button {
+    font-size: 30px;
+    border: none;
+    padding: 10px;
+}
+
+/* FOOTER */
+footer {
+    background: rgb(136, 113, 84);
+}
