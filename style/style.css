@@ -23,7 +23,7 @@ a {
     width: 100%;
     position: fixed;
     height: 70px;
-    background-color: rgb(29, 40, 59);
+    background-color:#6cb5b6;
     overflow:hidden;
 }
 
@@ -39,17 +39,23 @@ a {
 margin-left: 19.5vw;
 justify-content: center;
 }
+.nav-bar a:focus{
+transition:     0.5s ease-in-out;
+color:yellow;
+background-color:#da7016;
+}
 
 .nav-bar a{
     position: absolute;
-color: white;
+color: #f3f3f6;
 font-size: 1.6em;
 text-transform: uppercase;
 padding: 3px 5px 3px 5px;
+transition: 00.5s ease-in-out;
 }
 .nav-bar a:hover{
 color:yellow;
-background-color: rgba(185, 142, 142, 0.685);
+background-color:#da7016;
 padding: 3px 5px 3px 5px;
 transition-property:background-color;
 transition-duration: 2s;
@@ -57,7 +63,7 @@ transition-duration: 2s;
 
 .nav-bar a::after{
 content: " ";
-background-color: rgba(185, 142, 142, 0.685);
+background-color:#da7016;
 display: block;
 width: 0;
 height: 2px;
@@ -70,7 +76,7 @@ transition: width 0.5s ease-in-out;
 
 .nav-bar a:before{
     content: " ";
-background: rgba(185, 142, 142, 0.685);
+background:#da7016;
 display: block;
 width: 0 ;
 height: 2px;
