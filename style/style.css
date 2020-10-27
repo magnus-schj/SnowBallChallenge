@@ -19,6 +19,68 @@ a {
     text-decoration: none;
 }
 
+.nav-bar{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: rgb(29, 40, 59);
+    overflow:hidden;
+}
+
+.nav-bar ul{
+    padding-top: 20px;
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav-bar li{
+margin-left: 20vw;
+
+}
+
+.nav-bar a{
+    position: absolute;
+color: white;
+font-size: 1.6em;
+text-transform: uppercase;
+padding: 3px 5px 3px 5px;
+}
+.nav-bar a:hover{
+color:yellow;
+background-color: rgba(185, 142, 142, 0.685);
+padding: 3px 5px 3px 5px;
+transition-property:background-color;
+transition-duration: 2s;
+}
+
+.nav-bar a::after{
+content: " ";
+background-color: rgba(185, 142, 142, 0.685);
+display: block;
+width: 0;
+height: 2px;
+transition: width 0.5s ease-in-out;
+}
+.nav-bar a:hover::after{
+width:100%;
+transition: width 0.5s ease-in-out;
+}
+
+.nav-bar a:before{
+    content: " ";
+background: rgba(185, 142, 142, 0.685);
+display: block;
+width: 0 ;
+height: 2px;
+transition: width 0.5s ease-in-out;
+}
+
+.nav-bar a:hover::before{
+    width:100%;
+    transition: width 0.5s ease-in-out;
+    
+}
+
 /* HEADER */
 .main-head {
     min-height: 100vh;
