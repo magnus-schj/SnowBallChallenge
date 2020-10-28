@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-size: 20px;
+}
+
 /* NAV-BAR */
 
 .nav-bar {
@@ -31,6 +35,7 @@ a {
     height: 70px;
     background-color: #6cb5b6;
     overflow: hidden;
+    z-index: 1;
 }
 
 .nav-bar ul {
@@ -134,35 +139,41 @@ a {
     color: white;
 }
 
-/* ABOUT */
-.about {
+/* SECTIONS */
+.section-container {
     min-height: 100vh;
-    background: rgb(136, 113, 84);
     width: 80vw;
     margin-left: 10vw;
     margin-bottom: 5vw;
+    padding: 5% 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
 }
 
-.about img {
+.section-container img {
     -webkit-filter: invert(100%);
     filter: invert(100%);
     margin: 50px;
 }
 
-.about h1 {
+.section-container h1 {
     text-align: center;
     padding-top: 10vh;
     font-size: 60px;
 }
 
-.about h2 {
+.section-container h2 {
     font-size: 40px;
-    margin-top: 40px;
+    margin: 40px;
 }
+
+/* ABOUT-CONTAINER COLOR */
+.about {
+    background: rgb(136, 113, 84);
+}
+
 
 /* GOALS */
 
