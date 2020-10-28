@@ -120,14 +120,14 @@ nav a:hover::before {
 }
 
 .main-head h2 {
-    font-size: 35px;
+    font-size: 3.5rem;
     margin-bottom: 40px;
 }
 
 .main-head button {
     background: rgb(50, 85, 99);
     margin: 20px;
-    font-size: 30px;
+    font-size: 2rem;
     border: none;
     width: 350px;
     padding: 35px;
@@ -217,7 +217,21 @@ footer {
 
 @media screen and (max-width: 700px) {
 
-    .main-head {
-        font-size: 40%;
+    .main-head h1 {
+        font-size: 3rem;
+    }
+
+    .main-head h2 {
+        font-size: 1.5rem;
+    }
+
+    .main-head button {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .section-container img {
+        width: 120px;
     }
 }
