@@ -147,6 +147,12 @@ a {
     justify-content: flex-start;
 }
 
+.about img {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    margin: 50px;
+}
+
 .about h1 {
     text-align: center;
     padding-top: 10vh;
@@ -209,4 +215,3 @@ footer {
 }
 
 /* MEDIA QUERIES */
-@media(max-width:)
