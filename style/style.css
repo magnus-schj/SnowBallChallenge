@@ -59,6 +59,37 @@ p {
 
 .nav-bar a {
     position: absolute;
+<<<<<<< HEAD
+color: #f3f3f6;
+font-size: 1.6em;
+text-transform: uppercase;
+padding: 3px 5px 3px 5px;
+transition: 00.5s ease-in-out;
+}
+.nav-bar a:hover{
+color:yellow;
+background-color:#da7016;
+padding: 3px 5px 3px 5px;
+transition-property:background-color;
+transition-duration: 2s;
+border-radius: 5px;
+}
+
+.nav-bar a::after{
+content: " ";
+background-color:#da7016;
+display: block;
+width: 0;
+height: 2px;
+transition: width 0.5s ease-in-out;
+}
+.nav-bar a:hover::after{
+width:100%;
+transition: width 0.5s ease-in-out;
+}
+
+.nav-bar a:before{
+=======
     color: #f3f3f6;
     font-size: 1.6em;
     text-transform: uppercase;
@@ -89,6 +120,7 @@ p {
 }
 
 .nav-bar a:before {
+>>>>>>> 4a8afec3a19b5101e1b73016b685ef0e9eb878d0
     content: " ";
     background: #da7016;
     display: block;
