@@ -41,7 +41,7 @@ nav {
 
 nav ul {
     margin-top: 25px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
@@ -54,8 +54,11 @@ nav li {
     transition: 2s;
     border-radius: 5px;
 }
-nav li:hover{background-color: #da7016;
-transition: 2s;}
+
+nav li:hover {
+    background-color: #da7016;
+    transition: 2s;
+}
 
 nav a:focus {
     transition: 0.5s ease-in-out;
@@ -73,7 +76,7 @@ nav a {
 
 nav a:hover {
     color: yellow;
-    
+
     border-radius: 10px;
     background-size: 1.6em;
     transition-property: background-color;
@@ -122,7 +125,7 @@ nav a:hover::before {
 }
 
 .main-head h1 {
-    font-size: clamp(2rem,5vw,5rem);
+    font-size: clamp(2rem, 5vw, 5rem);
     margin-top: 300px;
     margin-bottom: 30px;
 }
@@ -148,8 +151,8 @@ nav a:hover::before {
     color: white;
 }
 
-.main-head a button:hover{
-    background-color:rgb(35, 61, 71) ;
+.main-head a button:hover {
+    background-color: rgb(35, 61, 71);
     transition: 0.5s;
 }
 
@@ -219,6 +222,20 @@ nav a:hover::before {
 /* FOOTER */
 footer {
     background: rgb(136, 113, 84);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 5vh;
+    color: black;
+}
+
+footer a {
+    color: white;
+}
+
+.credits {
+    margin: 1rem;
 }
 
 /* MEDIA QUERIES */
@@ -227,6 +244,10 @@ footer {
 
     nav {
         font-size: 0.7em;
+    }
+
+    footer {
+        font-size: 90%;
     }
 }
 
@@ -250,4 +271,3 @@ footer {
         width: 120px;
     }
 }
-
