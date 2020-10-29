@@ -221,7 +221,7 @@ nav a:hover::before {
 
 /* FOOTER */
 footer {
-    background: rgb(136, 113, 84);
+    background: #6cb5b6;
     display: flex;
     flex-direction: row;
     align-items: center;
