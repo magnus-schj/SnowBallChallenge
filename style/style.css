@@ -41,7 +41,7 @@ nav {
 
 nav ul {
     padding-top: 20px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
@@ -118,7 +118,7 @@ nav a:hover::before {
 }
 
 .main-head h1 {
-    font-size: clamp(2rem,5vw,5rem);
+    font-size: clamp(2rem, 5vw, 5rem);
     margin-top: 300px;
     margin-bottom: 30px;
 }
@@ -208,6 +208,7 @@ nav a:hover::before {
 /* FOOTER */
 footer {
     background: rgb(136, 113, 84);
+
 }
 
 /* MEDIA QUERIES */
