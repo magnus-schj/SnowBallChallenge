@@ -234,12 +234,20 @@ footer a {
     color: white;
 }
 
+.credits {
+    margin: 1rem;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 438px) {
 
     nav {
         font-size: 0.7em;
+    }
+
+    footer {
+        font-size: 90%;
     }
 }
 
